@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">IndustrialFaultDiagnosis</string>
+
+    <string-array name="faults">
+        <item>Motor Overheating</item>
+        <item>Sensor Failure</item>
+        <item>Valve Stuck</item>
+        <item>Pump Cavitation</item>
+        <item>High Vibration</item>
+    </string-array>
+
+</resources>

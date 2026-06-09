@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SCADA Dashboard"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Real-Time Process Monitoring"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Motor Status : RUNNING"
+            android:textSize="22sp"
+            android:padding="12dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pump Status : RUNNING"
+            android:textSize="22sp"
+            android:padding="12dp"/>
+
+        <TextView
+            android:id="@+id/txtTank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tank Level : 75%"
+            android:textSize="22sp"
+            android:padding="12dp"/>
+
+        <TextView
+            android:id="@+id/txtFlow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flow Rate : 120 L/min"
+            android:textSize="22sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/txtTemp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temperature : 65°C"
+            android:textSize="22sp"
+            android:padding="12dp"/>
+
+        <TextView
+            android:id="@+id/txtAlarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACTIVE ALARM : HIGH TEMPERATURE"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:padding="15dp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_marginTop="30dp"/>
+        <Button
+            android:id="@+id/btnAlarmHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alarm History"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
